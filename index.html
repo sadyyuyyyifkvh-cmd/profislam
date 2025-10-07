@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prof Islam</title>
+  <meta name="description" content="الصفحة الرسمية لـ Prof Islam — روابط YouTube وTikTok" />
+  <meta property="og:title" content="Prof Islam" />
+  <meta property="og:description" content="الصفحة الرسمية لـ Prof Islam — روابط YouTube وTikTok" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0f1724" />
+  <style>
+    :root{
+      --bg1: #071021;
+      --bg2: #0f2a3a;
+      --card: rgba(255,255,255,0.04);
+      --accent: linear-gradient(90deg,#ff416c,#ffba00);
+      --text: #e6eef8;
+      --muted: #9fb2c8;
+      --glass: rgba(255,255,255,0.03);
+      --radius: 16px;
+      --maxw: 760px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: "Segoe UI", system-ui, -apple-system, "Noto Naskh Arabic", "Tahoma", sans-serif;
+      background: radial-gradient(circle at 10% 10%, rgba(255,65,108,0.06), transparent 10%),
+                  linear-gradient(180deg,var(--bg1),var(--bg2));
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+    }
+
+    .card{
+      width:100%;
+      max-width:var(--maxw);
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:calc(var(--radius));
+      padding:32px;
+      box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+      border: 1px solid rgba(255,255,255,0.03);
+      text-align:center;
+    }
+    .avatar{
+      width:110px;
+      height:110px;
+      margin:0 auto 18px;
+      border-radius:50%;
+      background:conic-gradient(from 200deg at 50% 50%, rgba(255,65,108,0.15), rgba(255,186,0,0.12));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:700;
+      font-size:36px;
+      color:var(--text);
+      border: 1px solid rgba(255,255,255,0.04);
+    }
+    h1{
+      margin:0;
+      font-size:28px;
+      letter-spacing:0.2px;
+    }
+    p.lead{
+      margin:8px 0 20px;
+      color:var(--muted);
+      font-size:15px;
+    }
+
+    .links{
+      display:flex;
+      gap:12px;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-top:12px;
+    }
+    .btn{
+      min-width:220px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      justify-content:center;
+      padding:12px 16px;
+      border-radius:12px;
+      background:var(--glass);
+      border:1px solid rgba(255,255,255,0.02);
+      text-decoration:none;
+      color:var(--text);
+      font-weight:600;
+      transition:transform .12s ease, box-shadow .12s ease;
+    }
+    .btn:hover{ transform:translateY(-4px); box-shadow: 0 8px 20px rgba(2,6,23,0.6); }
+    .icon{
+      width:22px;height:22px;display:inline-block;flex:0 0 22px;
+    }
+    .youtube{
+      background: linear-gradient(90deg,#ff416c,#ffba00);
+      color:#071021;
+    }
+    .tiktok{
+      background: linear-gradient(90deg,#00f2fe,#4facfe);
+      color:#071021;
+    }
+
+    footer.small{
+      margin-top:18px;
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    @media (max-width:480px){
+      .btn{ min-width:100%; font-size:15px; padding:14px; }
+      .avatar{ width:90px; height:90px; font-size:30px }
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-label="صفحة Prof Islam">
+    <div class="avatar" aria-hidden="true">PI</div>
+    <h1>Prof Islam</h1>
+    <p class="lead">مرحبا! هادي الصفحة الرسمية لـ Prof Islam — تابعوني فـ YouTube وTikTok.</p>
+
+    <div class="links" role="navigation" aria-label="روابط الشبكات">
+      <!-- YouTube -->
+      <a class="btn youtube" id="youtubeBtn" href="https://www.youtube.com/@PHONIX_ofic" target="_blank" rel="noopener noreferrer nofollow">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+            <path d="M23 7.001c0 0 0.1-1.77-0.72-2.545C21.5 3.2 19.88 3.2 19.88 3.2H4.12s-1.62 0-2.4 1.256C1.1 5.231 1.1 7.001 1.1 7.001 1.1 7.001 1 8.77 1.82 9.545 2.6 10.8 4.12 10.8 4.12 10.8h15.76s1.62 0 2.4-1.256C22.9 8.77 23 7.001 23 7.001z" fill="#fff" opacity="0.12"/>
+            <path d="M9.75 9.5v5l5-2.5-5-2.5z" fill="#071021"/>
+          </svg>
+        </span>
+        <span>تابعني فـ YouTube</span>
+      </a>
+
+      <!-- TikTok -->
+      <a class="btn tiktok" id="tiktokBtn" href="https://www.tiktok.com/@pohinx?_t=ZM-90Kh3EgcWBU&_r=1" target="_blank" rel="noopener noreferrer nofollow">
+        <span class="icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill="none">
+            <path d="M16 3h2.5v3A6.5 6.5 0 0 1 12 12.5 6.5 6.5 0 1 1 18.5 6V4h-2.5V3z" fill="#071021" opacity="0.12"/>
+            <path d="M9.5 3a.5.5 0 0 0 .5-.5V6.1a4 4 0 1 0 4 4V6c.8.1 1.6.4 2.3 1.1v4.9a6 6 0 1 1-6.8-6.8V2.5A.5.5 0 0 0 9.5 3z" fill="#071021"/>
+          </svg>
+        </span>
+        <span>تابعني فـ TikTok</span>
+      </a>
+    </div>
+
+    <footer class="small">
+      © <span id="year"></span> Prof Islam — Simple Link Page
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
